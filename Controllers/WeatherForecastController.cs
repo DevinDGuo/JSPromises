@@ -45,5 +45,16 @@ namespace ReservationSystem.Controllers
                 return "thick dotted orange";
             }
         }
+        [HttpGet("text/{choice}")]
+        public string GetText(string choice)
+        {
+            Task.Delay(5000).Wait();
+            if(choice.Equals("a")) {
+                return "green";
+            }
+            else {
+                return "blue";
+            }
+        }
     }
 }

@@ -32,3 +32,4 @@ C:\CSCI350\promises\JSPromises\obj\Debug\net8.0\refint\JSPromises.dll
 C:\CSCI350\promises\JSPromises\obj\Debug\net8.0\JSPromises.pdb
 C:\CSCI350\promises\JSPromises\obj\Debug\net8.0\JSPromises.genruntimeconfig.cache
 C:\CSCI350\promises\JSPromises\obj\Debug\net8.0\ref\JSPromises.dll
+C:\CSCI350\promises\JSPromises\obj\Debug\net8.0\JSPromises.sourcelink.json

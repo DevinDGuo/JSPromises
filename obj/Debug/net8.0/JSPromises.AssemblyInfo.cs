@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSPromises")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d33bc4d2d7efde53a05eac34f1ec5db1d217c923")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSPromises")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSPromises")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

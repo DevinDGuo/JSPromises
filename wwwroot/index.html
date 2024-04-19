@@ -59,8 +59,30 @@
             console.error("Error fetching border color:", error);
         });
     }
+
+    async function changeTextColor() {
+        console.log("Starting the text color change (async)...");
+
+        try {
+            // Simulating a server delay of 3 seconds
+            await new Promise(resolve => setTimeout(resolve, 3000));
+
+            // Fetching the color from the server
+            let response = await fetch("http://localhost:5162/decorations/text/a");
+            let color = await response.text();
+
+            // Changing the text color
+            document.getElementById("stage").style.color = color;
+
+            console.log("Completed text color change (async).");
+        } catch (error) {
+            console.error("Error fetching text color:", error);
+        }
+    }
+
 </script>
 
 <h2 id="stage"> Welcome! </h2>
+<p><button onclick="changeTextColor()">Change Text Color</button></p>
 <p><button onclick="setBackgroundColorAsync()">Click to decorate with  background color</button></p>
 <p><button onclick="setBorder()">Click to decorate border</button></p>
