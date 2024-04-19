@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "33uJyv7TElbnCcK1HXxEL2vhDS7dl1Gsj2PKy1hiXqU=",
+  "Source": "JSPromises",
+  "BasePath": "_content/JSPromises",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JSPromises\\wwwroot",
+      "Source": "JSPromises",
+      "ContentRoot": "C:\\CSCI350\\promises\\JSPromises\\wwwroot\\",
+      "BasePath": "_content/JSPromises",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\CSCI350\\promises\\JSPromises\\wwwroot\\index.html",
+      "SourceId": "JSPromises",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CSCI350\\promises\\JSPromises\\wwwroot\\",
+      "BasePath": "_content/JSPromises",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
